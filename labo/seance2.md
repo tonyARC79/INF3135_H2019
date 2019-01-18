@@ -1,5 +1,14 @@
 # Séance 2: Unix, Git, Makefiles et bases du C
 
+**Note** S'il y a des questions dans le labo veuillez écrire dans un fichier nommé `./labo/R.seance2.md` dans un format `Markdown` vos conclusions aux questions.
+
+##### Format du fichier Markdown 
+ + Séance 2 (Header 1) 
+ + Exercice {1..n} (H2)
+ + Question {1..n} (H4)
+ + La réponse dans une section script
+ 
+
 ## 0 - Préparation avant de commencer
 
 Il serait important de pensé à une stratégie de répertoire afin de garder mes fichiers
@@ -70,6 +79,8 @@ suivantes :
 
 - Versionnez l'état actuel de votre projet avec Git.
 
+Q.1. Quel est l'argument pour compiler en mode `debug` ?
+
 ## 3 - Arguments de la fonction main
 
 - Modifiez votre programme `hello.c` de sorte qu'un utilisateur puisse passer
@@ -87,6 +98,8 @@ suivantes :
     ```shell
     Erreur: Un seul argument permis
     ```
+Q.1. Quel est le premier argument?    
+    
   Versionnez l'état actuel de votre projet avec Git.
 
 ## 4 - Fonctions
@@ -102,6 +115,11 @@ fonctions suivantes :
   plus souvent dans un tableau d'entiers;
 - Une fonction `nombreOccurrences` qui calcule le nombre de fois qu'un
   caractère donné apparaît dans une chaîne;
+- Une fonction `boucleAvant()` qui fait un `for(int i;i<x;++i)` avec un printf de `i`;
+- Une fonction `boucleApres()` qui fait un `for(int j;j<x;j++)` avec unprintf de `j`;
+
+Q.1. Qu'elle fonction est plus rapide entre `boucleAvant()` et `boucleApres()`? 
+Q.2. Est-ce que les résultats sont identiques? 
 
 N'oubliez pas d'inclure dans votre fonction main quelques tests qui démontrent
 que votre fonction est correctement implémentée. Chaque fois que vous avez
@@ -241,6 +259,7 @@ inclure les lignes suivantes:
 
 # Exemple de répertoire à ignorer
 bin/
+build/
 ```
 
 ## 8 - Commandes de base de Git
@@ -264,23 +283,6 @@ bin/
       `origin`.
     - `git remote -v` donne la liste des dépôts distants avec plus
       d'informations (notamment l'URL où il se trouve).
-- Clonez un projet avec la commande `git clone`. Vous pouvez par exemple
-  récupérer le projet <https://gitlab.com/ablondin/inf3135-ete2017-tp2> et
-  tenter de le faire fonctionner (n'oubliez pas d'installer les dépendances si
-  vous utilisez votre machine personnelle).
-- Lisez le fichier `README.md` pour comprendre comment fonctionne le projet (il
-  n'est pas nécessaire de tout comprendre en détail, juste d'avoir une idée de
-  ce que ça fait).
-- Tentez de faire fonctionner le projet (les informations pertinentes se
-  trouvent dans le fichier `README`). Notez que vous devez absolument installer
-  toutes les indépendances pour que cela fonctionne. Si vous n'y arrivez pas,
-  ne passez pas trop de temps sur cet exercice.
-- Utilisez la commande `git log` pour voir l'historique du projet.
-    - Utilisez la commande `git checkout` pour visualiser le projet à
-      différents moments.
-    - Utilisez la commande `git show` pour vous les modifications apportées
-      dans un *commit* précis.
-
 ---
 
 ##### Auteur Guy Francoeur
