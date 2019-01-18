@@ -25,10 +25,9 @@ $ ./tp1 -c CODE_permanent < nom_du_fichier_en_entree.ext > fichier_sortie.ext
 *  -i `<fichier source en entrée>`
 *  -o `<fichier traité en sortie>`
 
-  Le `CODE permanent` provient du fichier `cp.txt`.
-  Une variable dans le `Makefile` doit être créée pour récupérer le contenu du fichier `cp.txt`.  
-  Si vous préférez un faire appel à un fichier `bash` pour l'exécution de vos tests c'est acceptable. 
-  Mais il serait bien de faire les deux.
+  Le `CODE permanent` provient du fichier `cp.txt`.  Une variable dans le `Makefile` doit être créée 
+  pour récupérer le contenu du fichier `cp.txt`. Si vous préférez un faire appel à un fichier `bash`
+  pour l'exécution de vos tests c'est acceptable. Mais il serait bien de faire les deux.
 
   **Note**: il se pourrait que la sortie standard `stdout` soit utilisée avec `-i`.
 
@@ -163,9 +162,11 @@ son dépôt GitHub, Bitbucket ou GitLab avec un système de gestion de version t
 
 # Correction et évaluation
 
-Les travaux seront corrigés sur le serveur Java. Vous devez donc vous assurer que votre programme fonctionne **sans modification** sur celui-ci.
+Les travaux seront corrigés sur le serveur Java. Vous devez donc vous assurer que votre programme
+fonctionne **sans modification** sur celui-ci.
   
-Votre travail sera évalué de façon automatisée.  Ce qui implique que vos dépôts seront clonés et un pull sera effectué de façon automatique.
+Votre travail sera évalué de façon automatisée.  Ce qui implique que vos dépôts seront clonés
+et un pull sera effectué de façon automatique.
 Il n'y aura pas d'humain pour faire fonctionner le programme. Un `pull` par jour pendant 7 jours.
 Votre travail sera soumis à plusieurs cas et les résultats seront évalués par un script `bash`.
 Assurez-vous de bien lire toutes les directives et les requis.
