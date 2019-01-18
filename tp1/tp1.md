@@ -136,16 +136,19 @@ son dépôt GitHub, Bitbucket ou GitLab avec un système de gestion de version t
   2019** à **23h59**. À partir de minuit, une pénalité de **2 points par jour** de
   retard sera appliquée.
 
-  La remise se fait **obligatoirement** par l'intermédiaire de la plateforme
-  `Bitbucket https://bitbucket.org/`__ ou `Github https://github.com/`__ 
-  ou `GitLab https://gitlab.com/`__ .
-  **Aucune remise par courriel ne sera acceptée** (le travail sera considéré
-  comme non remis).
+  La remise se fait **obligatoirement** par l'intermédiaire de l'une des plateforme suivantes :
+  + `Bitbucket https://bitbucket.org/`___;
+  + `GitHub https://github.com/`___;
+  + `GitLab https://gitlab.com/`___.
+  
+  **Aucune remise par courriel ne sera acceptée** (le travail sera considéré comme non remis).
 
-  Le nom de votre dépôt doit être `inf3135-h2019-tp1` (en minuscules). Vous
+  Le nom de votre projet doit être `inf3135-h2019-tp1` (en minuscules). Vous
   devez donner un accès en mode **lecture/écriture** (pas **admin**) à
   l'utilisateur `guyfrancoeur` (moi-même). Ceci me permettra de déposer directement
   dans vos projets votre note pour le travail ainsi que mes commentaires.
+  
+  La branche `master` sera celle `cloné` et sera celle qui sera évalué.
 
   Votre projet devrait minimalement contenir les fichiers suivants :
 
