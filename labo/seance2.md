@@ -1,26 +1,26 @@
 # Séance 2: Unix, Git, Makefiles et bases du C
 
-**Note facultatif** S'il y a des questions dans le labo veuillez écrire dans un fichier nommé `./labo/reponse-labo.md` dans un format `Markdown` vos conclusions aux questions. Utilisez le projet `inf3135-h2019` pour déposer le fichier `reponse.labo.md` soit le même que pour vos travaux travaux pratiques.  Utilisez un autre `projet` pour vos exercices.  
+**Note ** : (_facultatif_) S'il y a des questions dans le labo veuillez écrire dans un fichier nommé `./labo/reponse-labo.md` dans un format `Markdown` vos conclusions aux questions. Utilisez le projet `inf3135-h2019` pour déposer le fichier `reponse.labo.md` soit le même que pour vos travaux pratiques.  Utilisez un autre `projet` pour vos exercices.  
 
 ##### Format du fichier Markdown
  + Séance 2 (Header 1)
  + Exercice {1..n} (H2)
  + Question {1..n} (H4)
- + S`2`.E`3`.Q`1` (strong) `est une valeur qui change biensûr`
+ + S`2`.E`3`.Q`1` (strong) `est une valeur qui change bien sûr`
  + La réponse dans une section script (code block)
 
 ## 0 - Préparation avant de commencer
 
-Il serait important de pensé à une stratégie de répertoire afin de garder mes fichiers
-dans un structure adequate.  Des répertoires sont nécessaire pour ne pas mettre tout au même
-endroit.  Les commandes : pour changer de repertoire et créer des répertoires est nécessaire.
+Il serait important de penser à une stratégie de répertoire afin de garder mes fichiers
+dans une structure adéquate.  Des répertoires sont nécessaires pour ne pas mettre tout au même
+endroit.  Les commandes : `cd`, `mkdir`, `ls` et `rm` sont utiles pour réaliser le travail.
 
 ~~~~
 $ cd
 $ mkdir execices
 ~~~~
 
-pour changer de répertoire essayez ceci :
+pour changer de répertoire, essayez ceci :
 
 ```$ cd ex``` <kbd>TAB</kbd>
 
@@ -79,7 +79,7 @@ suivantes :
 
 - Versionnez l'état actuel de votre projet avec Git.
 
-Q.1. Quel est l'argument pour compiler en mode `debug` ?
+##### Q1. Quel est l'argument pour compiler en mode `debug` ?
 
 ## 3 - Arguments de la fonction main
 
@@ -98,9 +98,9 @@ Q.1. Quel est l'argument pour compiler en mode `debug` ?
     ```shell
     Erreur: Un seul argument permis
     ```
-Q.1. Quel est le premier argument?    
-    
   Versionnez l'état actuel de votre projet avec Git.
+
+##### Q1. Décrire à quoi correspond le premier argument dans vos mots (dans le programme `hello.c` ou tout autre programme?
 
 ## 4 - Fonctions
 
@@ -118,8 +118,8 @@ fonctions suivantes :
 - Une fonction `boucleAvant()` qui fait un `for(int i;i<x;++i)` avec un printf de `i`;
 - Une fonction `boucleApres()` qui fait un `for(int j;j<x;j++)` avec un printf de `j`;
 
-Q.1. Qu'elle fonction est plus rapide entre `boucleAvant()` et `boucleApres()`? 
-Q.2. Est-ce que les résultats sont identiques? 
+##### Q1. Qu'elle fonction est plus rapide entre `boucleAvant()` et `boucleApres()`? 
+##### Q2. Est-ce que les résultats sont identiques? 
 
 N'oubliez pas d'inclure dans votre fonction main quelques tests qui démontrent
 que votre fonction est correctement implémentée. Chaque fois que vous avez
@@ -184,8 +184,7 @@ Il y a plusieurs façons d'annuler des modifications dans Git:
 * En annulant toutes les modifications dans un fichier depuis le dernier
   *commit*.
 
-D'autres exemples sont [fournis dans la
-documentation](https://git-scm.com/book/fr/v2/Les-bases-de-Git-Annuler-des-actions).
+D'autres exemples sont [fournis dans la documentation](https://git-scm.com/book/fr/v2/Les-bases-de-Git-Annuler-des-actions).
 
 ## 7 - Modifier le dernier commit
 
@@ -228,7 +227,7 @@ donc impossibles à fusionner).
 ### Annuler une modification ajoutée par erreur au prochain commit
 
 Il est possible de retirer une modification ajoutée à un *commit* par
-acccident.  Par exemple, supposons que nous incluions par erreur le ficher
+accident.  Par exemple, supposons que nous incluions par erreur le ficher
 `a.out` au prochain *commit*.
 
 ```shell
