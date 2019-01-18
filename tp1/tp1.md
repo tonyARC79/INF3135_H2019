@@ -72,7 +72,7 @@ Le contenu du fichier de résultats aura un résultat par ligne et sera similair
 
 - Lorsqu'on entre `make data`, le téléchargement des données (fichier) se fait
   de façon automatique dans un répertoire (./data). La décompression est nécessaire.
-  https://www.github.com/guyfrancoeur/INF3135_H2019/blob/master/tp1/data.zip;
+  https://www.github.com/guyfrancoeur/INF3135_H2019/raw/master/tp1/data.zip;
 
 - Lorsqu'on entre `make test` le programme `tp1` s'exécutera séquentiellement avec les fichiers contenus dans `./data`.
   
