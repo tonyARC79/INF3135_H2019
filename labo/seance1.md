@@ -235,7 +235,8 @@ $
 
 - La dernière commande garde en cache votre `usager` et `mot de password` pour une durée d'une heure. C'est plutôt utile non?
 
-## 6 - Création d'un projet avec GithHub (contribution par Alexandre Lachapelle)
+## 6 - Création d'un projet avec GithHub 
+> > ###### contribution par Alexandre Lachapelle
 
 #### Étape 6.1
 - Rendez-vous tout d'abord sur le site de [GitHub](https://github.com/) pour vous créer
