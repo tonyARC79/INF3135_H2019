@@ -1,13 +1,13 @@
 # Séance 2: Unix, Git, Makefiles et bases du C
 
-**Note** S'il y a des questions dans le labo veuillez écrire dans un fichier nommé `./labo/R.seance2.md` dans un format `Markdown` vos conclusions aux questions.
+**Note facultatif** S'il y a des questions dans le labo veuillez écrire dans un fichier nommé `./labo/reponse-labo.md` dans un format `Markdown` vos conclusions aux questions. Utilisez le projet `inf3135-h2019` pour déposer le fichier `reponse.labo.md` soit le même que pour vos travaux travaux pratiques.  Utilisez un autre `projet` pour vos exercices.  
 
-##### Format du fichier Markdown 
- + Séance 2 (Header 1) 
+##### Format du fichier Markdown
+ + Séance 2 (Header 1)
  + Exercice {1..n} (H2)
  + Question {1..n} (H4)
- + La réponse dans une section script
- 
+ + S`2`.E`3`.Q`1` (strong) `est une valeur qui change biensûr`
+ + La réponse dans une section script (code block)
 
 ## 0 - Préparation avant de commencer
 
@@ -46,31 +46,31 @@ suivantes :
 
 - Compilez ce programme en une seule étape:
     ```shell
-    gcc hello.c
+    $ gcc hello.c
     ```
   Ceci produit un exécutable a.out`.
 
 - Il est aussi possible que cet exécutable ait un nom que vous choisissez, par
   exemple:
     ```shell
-    gcc hello.c -o hello
+    $ gcc hello.c -o hello
     ```
 
 - Ensuite, compilez le programme en deux étapes:
     ```shell
-    gcc -c hello.c
+    $ gcc -c hello.c
     ```
   Ceci produit un fichier `hello.o`.
 
 - Ouvrez-le avec Vim pour vérifier son contenu. Notez que la commande
     ```shell
-    gcc -c hello.c -o hello.o
+    $ gcc -c hello.c -o hello.o
     ```
   produit exactement le même résultat.
 
 - Complétez la deuxième étape en entrant la commande :
     ```shell
-    gcc hello.o -o hello
+    $ gcc hello.o -o hello
     ```
 
 - Finalement, créez un fichier `Makefile` qui automatise l'étape de
@@ -86,7 +86,7 @@ Q.1. Quel est l'argument pour compiler en mode `debug` ?
 - Modifiez votre programme `hello.c` de sorte qu'un utilisateur puisse passer
   en arguments son nom. Par exemple, si on entre
     ```shell
-    ./hello planet
+    $ ./hello planet
     ```
   alors on devrait obtenir
     ```shell
@@ -116,7 +116,7 @@ fonctions suivantes :
 - Une fonction `nombreOccurrences` qui calcule le nombre de fois qu'un
   caractère donné apparaît dans une chaîne;
 - Une fonction `boucleAvant()` qui fait un `for(int i;i<x;++i)` avec un printf de `i`;
-- Une fonction `boucleApres()` qui fait un `for(int j;j<x;j++)` avec unprintf de `j`;
+- Une fonction `boucleApres()` qui fait un `for(int j;j<x;j++)` avec un printf de `j`;
 
 Q.1. Qu'elle fonction est plus rapide entre `boucleAvant()` et `boucleApres()`? 
 Q.2. Est-ce que les résultats sont identiques? 
@@ -126,11 +126,55 @@ que votre fonction est correctement implémentée. Chaque fois que vous avez
 terminé d'implémenter une fonction, n'oubliez pas de versionner votre projet à
 l'aide de Git.
 
+## 5 - Ignorer des fichiers avec Git
+
+Il est crucial
+d'[ignorer](https://git-scm.com/book/fr/v2/Les-bases-de-Git-Enregistrer-des-modifications-dans-le-d%C3%A9p%C3%B4t#_ignoring)
+les fichiers inutiles lorsqu'on suit l'évolution d'un projet avec Git,
+notamment les fichiers binaires (pas tous, mais beaucoup d'entre eux), les
+fichiers temporaires, les fichiers de configuration individuelle, etc.
+
+Dans le cours, vous devrez en particulier ignorer les fichiers avec les
+extensions `.o` et `.out` qui sont générés par le compilateur *gcc*. Les
+fichiers et répertoires à ignorer sont spécifiés dans le fichier ".gitignore" à
+l'aide d'une expression régulière.
+
+Par exemple, créez un fichier nommé ".gitignore" à la racine de votre projet.
+
+```shell
+$ nano .gitignore
+```
+
+Modifier le fichier pour y ajouter les choses que vous ne voulez pas gérer dans
+le gestionnaire de version (une expression par ligne). Par exemple, vous pourriez
+inclure les lignes suivantes:
+
+```shell
+# Fichiers C
+*.o
+*.out
+
+# Fichiers Vim
+*.swo
+*.swp
+
+# Fichiers temporaires
+*.old
+*.tmp
+*.bak
+
+# Exemple de répertoire à ignorer
+bin/
+build/
+```
+
 **Note:** Il n'est pas nécessaire de compléter les exercices suivants dans
 cette séance, mais il est encouragé de venir les consulter chaque fois que vous
 souhaitez apporter des modifications à vos *commits*
 
-## 5 - Annuler des modifications avec Git
+---
+
+## 6 - Annuler des modifications avec Git
 
 Il y a plusieurs façons d'annuler des modifications dans Git:
 
@@ -143,7 +187,7 @@ Il y a plusieurs façons d'annuler des modifications dans Git:
 D'autres exemples sont [fournis dans la
 documentation](https://git-scm.com/book/fr/v2/Les-bases-de-Git-Annuler-des-actions).
 
-## 6 - Modifier le dernier commit
+## 7 - Modifier le dernier commit
 
 La modification de *commit* se fait en deux étapes:
 
@@ -218,48 +262,6 @@ remettant dans l'état où il était au dernier *commit*. Il suffit d'entrer
 
 ```shell
 $ git checkout -- README.md
-```
-
-## 7 - Ignorer des fichiers avec Git
-
-Il est crucial
-d'[ignorer](https://git-scm.com/book/fr/v2/Les-bases-de-Git-Enregistrer-des-modifications-dans-le-d%C3%A9p%C3%B4t#_ignoring)
-les fichiers inutiles lorsqu'on suit l'évolution d'un projet avec Git,
-notamment les fichiers binaires (pas tous, mais beaucoup d'entre eux), les
-fichiers temporaires, les fichiers de configuration individuelle, etc.
-
-Dans le cours, vous devrez en particulier ignorer les fichiers avec les
-extensions `.o` et `.out` qui sont générés par le compilateur *gcc*. Les
-fichiers et répertoires à ignorer sont spécifiés dans le fichier ".gitignore" à
-l'aide d'une expression régulière.
-
-Par exemple, créez un fichier nommé ".gitignore" à la racine de votre projet.
-
-```shell
-$ nano .gitignore
-```
-
-Modifier le fichier pour y ajouter les choses que vous ne voulez pas gérer dans
-le gestionnaire de version (une expression par ligne). Par exemple, vous pourriez
-inclure les lignes suivantes:
-
-```shell
-# Fichiers C
-*.o
-*.out
-
-# Fichiers Vim
-*.swo
-*.swp
-
-# Fichiers temporaires
-*.old
-*.tmp
-*.bak
-
-# Exemple de répertoire à ignorer
-bin/
-build/
 ```
 
 ## 8 - Commandes de base de Git
