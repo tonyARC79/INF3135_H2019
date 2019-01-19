@@ -103,11 +103,11 @@ Vous pouvez utiliser [Stackedit.io](https://stackedit.io) pour vous permettre de
   ce compte vous soit utile après le cours dans un contexte professionnel
   (évidemment, ce n'est qu'une suggestion !).
 
-- Créez un nouveau dépôt, donnez-lui un nom significatif, laissez la description vide et
+- Créez un nouveau projet, donnez-lui un nom significatif, laissez la description vide et
   les autres options par défaut puis confirmez la création.
 
 #### Étape 5.2
-- Connectez-vous au serveur `java.launix.uqam.ca`
+- Connectez-vous au serveur `java.labunix.uqam.ca`
 
 - Tout d'abord il faut configurer l'environnement. Ceci est nécessaire pour que vous soyez en mesure de connecter le dépôt `GitLab`.
 
@@ -246,11 +246,11 @@ $
   ce compte vous soit utile après le cours dans un contexte professionnel
   (évidemment, ce n'est qu'une suggestion !).
 
-- Créez un nouveau dépôt, donnez-lui un nom significatif, laissez la description vide et
+- Créez un nouveau projet, donnez-lui un nom significatif, laissez la description vide et
   les autres options par défaut puis confirmez la création.
 
 #### Étape 6.2
-- Connectez-vous au serveur `java.launix.uqam.ca`
+- Connectez-vous au serveur `java.labunix.uqam.ca`
 
 - Tout d'abord il faut configurer l'environnement. Ceci est nécessaire pour que vous soyez en mesure de connecter le dépôt `GitHub`.
 
