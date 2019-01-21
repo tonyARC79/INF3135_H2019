@@ -21,15 +21,15 @@ Il s'agit d'un fichier binaire (zip), il faut le transférer comme tel.
 ~~~~
 
 
-### Q. Est ce que les fichiers pour les tests (./data) ont obligatoirement comme extension.txt ?
+### Q. Est-ce que les fichiers pour les tests (./data) ont obligatoirement comme extension.txt ?
 #### Réponse
 ~~~~
-Les fichiers sont de type texte mais pas obligatoirement avec une extension .txt.
+Les fichiers sont de type texte, mais pas obligatoirement avec une extension .txt.
 ~~~~
 
 
-### Q. Devons nous faire les tests de temps d’exécutions en terme de valeur de temps ?
+### Q. Devons nous faire les tests de temps d’exécutions en termes de valeur de temps ?
 #### Réponse
 ~~~~
-C'est une bonne chose en généale.  Le temps réponse sera surement évaluer.
+C'est une bonne chose en générale.  Le temps réponse sera sûrement évalué.
 ~~~~
