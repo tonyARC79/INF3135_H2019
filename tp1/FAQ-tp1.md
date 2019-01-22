@@ -74,3 +74,9 @@ piste pour réaliser le travail.  Tout va bien aller. Consultez le barème de co
 ~~~~
 Ce n'est pas demandé.
 ~~~~
+
+### Q. Est-ce qu'on devrait vérifier que le contenu du fichier d'entrée est valide?
+#### Réponse
+~~~~
+Oui, on ne sait jamais ce qu'il pourrait contenir.  Une corruption de fichier pourrait survenir.
+~~~~
