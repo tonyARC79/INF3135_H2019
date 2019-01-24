@@ -90,13 +90,13 @@ Un seul intervalle
 ### Q. Que fait-on lorsqu'il y a des erreurs ou que quelque chose n'est pas pas conforme ?
 #### Réponse
 ~~~~
-Toutes les applications lorsqu'elles recentrent un problème avec les données, les arguments ou autres
+Toutes les applications lorsqu'elles rencontrent un problème avec les données, les arguments ou autres
 influences qui empêchent un fonctionnement conforme retournent un code.
 C'est le cas pour les applications ou les commandes Linux (ie.: cd, cat, ls, sed, gcc, ... ) qui sont 
 basés sur ce principe. Donc vous devez les gérer les codes de retour.  Pour vous aidez et vous guider,
-voici la liste des codes de retour suivant :
+voici la liste des codes de retour que votre application doit supporter :
 ~~~~
-#### Détails
+#### Détails sur les codes de retour
 + `0` : le programme s’est exécuté avec succès;
 + `1` : il n'y a pas d'argument où -c n'est pas présent;
 + `2` : l'argument -c est présent, mais le code n'est pas 12 de long;
@@ -108,11 +108,11 @@ voici la liste des codes de retour suivant :
 #### Pour les codes `0`, `2`, `3`, `4`, `5`, `6` 
  + Aucun message n'est nécessaire. Le code de retour est suffisant.
 
-#### Pour le code 1 uniquement
+#### Pour le code `1` uniquement
  + Il semble judicieux d'informer l'utilisateur que votre application a certains requis: 
 ~~~~ 
  fprintf(stderr, "Usage: %s <-c CODEpermanent> [-i fichier.in] [-o fichier.out] \n", argv[0]);
 ~~~~
-#### Pour le code 4 précision
+#### Pour le code `4` voici des précisions
 + un intervalle `1000 1` est valide.  
 + L'ensemble valide est : N* = entiers naturels;
