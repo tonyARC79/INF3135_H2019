@@ -123,4 +123,4 @@ voici la liste des codes de retour que votre application doit supporter :
 ~~~~
 #### Pour le code `4` voici des précisions
 + un intervalle `1000 1` est valide.  
-+ L'ensemble valide est : N* = entiers naturels;
++ L'ensemble valide est : N = entiers naturels; qui inclu 0;
