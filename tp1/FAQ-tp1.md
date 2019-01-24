@@ -122,5 +122,5 @@ voici la liste des codes de retour que votre application doit supporter :
  fprintf(stderr, "Usage: %s <-c CODEpermanent> [-i fichier.in] [-o fichier.out] \n", argv[0]);
 ~~~~
 #### Pour le code `4` voici des précisions
-+ un intervalle `1000 1` est valide.  
++ un intervalle `1000 0` est valide.
 + L'ensemble valide est : N = entiers naturels; qui inclu 0;
