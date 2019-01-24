@@ -96,5 +96,7 @@ Toutes les applications lorsque les données ou les arguments ne sont pas confor
 `1` : il n'y a pas d'argument où -c n'est pas présent;
 `2` : l'argument -c est présent, mais le code n'est pas 12 de long;
 `3` : un argument non voulu est présent. Voici un exemple : `-t BLA`;
-`4` : l'intervalle n'est pas conforme; `attention` un intervalle `1000 1` est valide.  L'ensemble valide est : N* = entiers naturels;
+`4` : l'intervalle n'est pas conforme; `Attention` un intervalle `1000 1` est valide.  L'ensemble valide est : N* = entiers naturels;
+`5` : une erreur (lecture, existance, ...) avec le fichier en entrée;
+`6` : une erreur (création, ...) avec le fichier en sortie; `Attention` Si le fichier existe il faut l'écraser;
 *Note* aucun message n'est nécessaire. Le code de retour est suffisant.
