@@ -79,7 +79,7 @@ Le contenu du fichier de résultats aura un résultat par ligne et sera similair
 
 - Lorsqu'on entre `make test` le programme `tp1` s'exécutera séquentiellement avec les fichiers contenus dans `./data`.
   
-- Lorsqu'on entre `make resultat` le fichier `resultat.txt` sera poussé dans votre dépôt.
+- Lorsqu'on entre `make resultat` le fichier `resultat.txt` (créé par un script `bash` qui test et évalue votre travail) situé à la racine du dépôt local sera poussé dans votre projet. 
 
 # Complément
 
