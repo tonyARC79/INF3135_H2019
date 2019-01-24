@@ -96,6 +96,7 @@ C'est le cas pour les applications ou les commandes Linux (ie.: cd, cat, ls, sed
 basés sur ce principe. Donc vous devez les gérer les codes de retour.  Pour vous aidez et vous guider,
 voici la liste des codes de retour suivant :
 ~~~~
+#### Détails
 + `0` : le programme s’est exécuté avec succès;
 + `1` : il n'y a pas d'argument où -c n'est pas présent;
 + `2` : l'argument -c est présent, mais le code n'est pas 12 de long;
@@ -104,13 +105,14 @@ voici la liste des codes de retour suivant :
 + `5` : une erreur (lecture, existance, ...) avec le fichier en entrée;
 + `6` : une erreur (création, ...) avec le fichier en sortie; `Attention` Si le fichier existe il faut l'écraser;
 
-##### Pour les codes `0`, `2`, `3`, `4`, `5`, `6` 
-  Aucun message n'est nécessaire. Le code de retour est suffisant.
+#### Pour les codes `0`, `2`, `3`, `4`, `5`, `6` 
+ + Aucun message n'est nécessaire. Le code de retour est suffisant.
 
-##### Pour le code 1 uniquement
-  Il semble judicieux d'informer l'utilisateur que votre application a certains requis: 
-+ `fprintf(stderr, "Usage: %s <-c CODEpermanent> [-i fichier.in] [-o fichier.out] \n", argv[0]);`
-
-##### Pour le code 4 précision
+#### Pour le code 1 uniquement
+ + Il semble judicieux d'informer l'utilisateur que votre application a certains requis: 
+~~~~ 
+ fprintf(stderr, "Usage: %s <-c CODEpermanent> [-i fichier.in] [-o fichier.out] \n", argv[0]);
+~~~~
+#### Pour le code 4 précision
 + un intervalle `1000 1` est valide.  
 + L'ensemble valide est : N* = entiers naturels;
