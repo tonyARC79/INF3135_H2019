@@ -1,5 +1,7 @@
 # Q & R TP1
 
++ Les détails qui suivent s'ajoute à l'énoncé d'origine.
+
 ### Q. Le fait d’utiliser le même nom de fichier ou se trouve le main, sommes-nous obligés d’utiliser le fichier .h et faire un include?
 #### Réponse 
 ~~~~
@@ -8,8 +10,14 @@ Vous n'êtes pas obligé d'avoir un .h (header) dans ce travail.
 
 ### Q. Est ce qu’on doit valider le code permanent ou les nombres, et retourner un message d’erreur si non valide ?
 #### Réponse
+`Attention` changement ici
 ~~~~
-Non pas de validation, le code est uniquement nécessaire pour associer le travail à un
+Suite à plusieurs demandes, je change ma réponse de non à OUI.
+
+Donc, assurez-vous que le code est 12 de long (donc présent). Dans le 
+cas contraire, on arrête le programme et un code de retour est émis.
+
+Le code est uniquement nécessaire pour associer le travail à un
 individu et publier vos résultats.
 ~~~~
 
@@ -22,7 +30,7 @@ Il s'agit d'un fichier binaire (zip), il faut le transférer comme tel.
 ~~~~
 
 
-### Q. Est-ce que les fichiers pour les tests (./data) ont obligatoirement comme extension.txt ?
+### Q. Est-ce que les fichiers pour les tests (./data) ont obligatoirement comme extension .txt ?
 #### Réponse
 ~~~~
 Les fichiers sont de type texte, mais pas obligatoirement avec une extension .txt.
@@ -93,7 +101,7 @@ Un seul intervalle
 Toutes les applications lorsqu'elles rencontrent un problème avec les données, les arguments ou autres
 influences qui empêchent un fonctionnement conforme retournent un code.
 C'est le cas pour les applications ou les commandes Linux (ie.: cd, cat, ls, sed, gcc, ... ) qui sont 
-basés sur ce principe. Donc vous devez les gérer les codes de retour.  Pour vous aidez et vous guider,
+basés sur ce principe. Donc, vous devez les gérer les codes de retour.  Pour vous aidez et vous guider,
 voici la liste des codes de retour que votre application doit supporter :
 ~~~~
 #### Détails sur les codes de retour
