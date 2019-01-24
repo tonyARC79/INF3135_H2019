@@ -90,13 +90,27 @@ Un seul intervalle
 ### Q. Que fait-on lorsqu'il y a des erreurs ou que quelque chose n'est pas pas conforme ?
 #### Réponse
 ~~~~
-Toutes les applications lorsque les données ou les arguments ne sont pas conformes retournent un code.  C'est aussi le cas pour les applications ou commandes Linux (ie.: cd, cat, ls, sed, gcc ... ) sont basés sur ce principe. Donc vous devez les gérer les codes de retour.  Pour vous aidez et vous guider, voici la liste des codes de retour suivant :
+Toutes les applications lorsqu'elles recentrent un problème avec les données, les arguments ou autres
+influences qui empêchent un fonctionnement conforme retournent un code.
+C'est le cas pour les applications ou les commandes Linux (ie.: cd, cat, ls, sed, gcc, ... ) qui sont 
+basés sur ce principe. Donc vous devez les gérer les codes de retour.  Pour vous aidez et vous guider,
+voici la liste des codes de retour suivant :
 ~~~~
-`0` : le programme s’est exécuté avec succès;
-`1` : il n'y a pas d'argument où -c n'est pas présent;
-`2` : l'argument -c est présent, mais le code n'est pas 12 de long;
-`3` : un argument non voulu est présent. Voici un exemple : `-t BLA`;
-`4` : l'intervalle n'est pas conforme; `Attention` un intervalle `1000 1` est valide.  L'ensemble valide est : N* = entiers naturels;
-`5` : une erreur (lecture, existance, ...) avec le fichier en entrée;
-`6` : une erreur (création, ...) avec le fichier en sortie; `Attention` Si le fichier existe il faut l'écraser;
-*Note* aucun message n'est nécessaire. Le code de retour est suffisant.
++ `0` : le programme s’est exécuté avec succès;
++ `1` : il n'y a pas d'argument où -c n'est pas présent;
++ `2` : l'argument -c est présent, mais le code n'est pas 12 de long;
++ `3` : un argument non voulu est présent. Voici un exemple : `-t BLA`;
++ `4` : l'intervalle n'est pas conforme; 
++ `5` : une erreur (lecture, existance, ...) avec le fichier en entrée;
++ `6` : une erreur (création, ...) avec le fichier en sortie; `Attention` Si le fichier existe il faut l'écraser;
+
+##### Pour les codes `0`, `2`, `3`, `4`, `5`, `6` 
+  Aucun message n'est nécessaire. Le code de retour est suffisant.
+
+##### Pour le code 1 uniquement
+  Il semble judicieux d'informer l'utilisateur que votre application a certains requis: 
++ `fprintf(stderr, "Usage: %s <-c CODEpermanent> [-i fichier.in] [-o fichier.out] \n", argv[0]);`
+
+##### Pour le code 4 précision
++ un intervalle `1000 1` est valide.  
++ L'ensemble valide est : N* = entiers naturels;
