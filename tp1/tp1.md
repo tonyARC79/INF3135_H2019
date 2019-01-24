@@ -32,6 +32,16 @@ $ ./tp1 -c CODE_permanent < nom_du_fichier_en_entree.ext > fichier_sortie.ext
   pour l'exécution de vos tests c'est acceptable. Mais il serait bien de faire les deux.
 
   **Note**: il se pourrait que la sortie standard `stdout` soit utilisée avec `-i`.
+  
+  > > *Nouveau début*
+  > >
+  > > Quelques exemples valides (mais pas tous)
+  > >
+  > > `$ ./tp1 -c CODE_permanent -i nom_du_fichier_en_entree.ext > fichier_sortie.ext`
+  > > `$ ./tp1 -c CODE_permanent`
+  > > `$ ./tp1 -c CODE_permanent -o fichier.out`
+  > >
+  > > *Nouveau fin*
 
 #### Vous devez réaliser le travail selon les contraintes suivantes:
 
