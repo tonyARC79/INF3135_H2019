@@ -80,3 +80,21 @@ Ce n'est pas demandé.
 ~~~~
 Oui, on ne sait jamais ce qu'il pourrait contenir.  Une corruption de fichier pourrait survenir.
 ~~~~
+
+### Q. Est ce qu'un fichier d'entrée valide peut contenir plusieurs intervalles dans lesquels on doit chercher les nombres parfaits ? ou il doit juste contenir un seul intervalle sans aucun texte autour ?
+#### Réponse
+~~~~
+Un seul intervalle
+~~~~
+
+### Q. Que fait-on lorsqu'il y a des erreurs ou que quelque chose n'est pas pas conforme ?
+#### Réponse
+~~~~
+Toutes les applications lorsque les données ou les arguments ne sont pas conformes retournent un code.  C'est aussi le cas pour les applications ou commandes Linux (ie.: cd, cat, ls, sed, gcc ... ) sont basés sur ce principe. Donc vous devez les gérer les codes de retour.  Pour vous aidez et vous guider, voici la liste des codes de retour suivant :
+~~~~
+`0` : le programme s’est exécuté avec succès;
+`1` : il n'y a pas d'argument où -c n'est pas présent;
+`2` : l'argument -c est présent, mais le code n'est pas 12 de long;
+`3` : un argument non voulu est présent. Voici un exemple : `-t BLA`;
+`4` : l'intervalle n'est pas conforme; `attention` un intervalle `1000 1` est valide.  L'ensemble valide est : N* = entiers naturels;
+*Note* aucun message n'est nécessaire. Le code de retour est suffisant.
