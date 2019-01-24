@@ -10,7 +10,7 @@ Vous n'êtes pas obligé d'avoir un .h (header) dans ce travail.
 
 ### Q. Est ce qu’on doit valider le code permanent ou les nombres, et retourner un message d’erreur si non valide ?
 #### Réponse
-`Attention` <span style="color:blue">changement de réponse/span>
+`Attention` <span style="color:blue">changement de réponse</span>
 ~~~~
 Suite à plusieurs demandes, je change ma réponse de non à OUI.
 
