@@ -106,7 +106,7 @@ voici la liste des codes de retour que votre application doit supporter :
 ~~~~
 #### Détails sur les codes de retour
 + `0` : le programme s’est exécuté avec succès;
-+ `1` : il n'y a pas d'argument où -c n'est pas présent;
++ `1` : il n'y a `aucun` d'argument ou l'argument `-c` n'est pas présent;
 + `2` : l'argument -c est présent, mais le code n'est pas 12 de long;
 + `3` : un argument non voulu est présent. Voici un exemple : `-t BLA`;
 + `4` : l'intervalle n'est pas conforme; 
