@@ -20,7 +20,9 @@ $ ./tp1 -c CODE_permanent -i nom_du_fichier_en_entree.ext -o fichier_sortie.ext
 $ ./tp1 -c CODE_permanent < nom_du_fichier_en_entree.ext > fichier_sortie.ext
 ```
   Avec la deuxième méthode, vous avez compris que le programme accepte les données par l'entrée standard `stdin` et produit le résultat dans la sortie standard `stdout`. Les symboles `<` et `>` sont des redirections.
- 
+  
+#### Détails sur les arguments
+
 *  -c `<CODE permanent>`
 *  -i `<fichier source en entrée>`
 *  -o `<fichier traité en sortie>`
