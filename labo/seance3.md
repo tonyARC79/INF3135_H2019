@@ -21,6 +21,7 @@ l'application doit arrêter avec code de retour.
 + `2` : si le `-1` et `-2` ne sont pas de type entier naturel N*;
 + `3` : si `-d` et/ou `DEC | INC` ne sont pas présent; 
 
+#### Questions
 + Q1. Quelle instruction vous permet de retourner le code 0?
 + Q2. Quelle instruction vous permet de retourner le code 1?
 
