@@ -5,7 +5,56 @@ de Git (un seul dépôt est amplement suffisant pour la séance, ou même un seu
 dépôt pour tous les laboratoires, en divisant les fichiers dans des
 répertoires).
 
-## 1 - Structures
+## 1 - Afficher une matrice
+
+Écrivez une fonction C permettant d'afficher le contenu d'une matrice d'entiers
+de dimensions 3 par 3.
+
+Rappelons qu'on peut initialiser une matrice de la façon suivante
+```c
+int matrice[3][3] = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9} };
+```
+Bien sûr, vous trouverez un moyen d'éliminer les valeurs magiques spécifiant la
+taille de la matrice. L'en-tête de votre fonction devrait ressembler à
+```c
+void afficherMatrice(int matrice[3][3]);
+```
+
+Grâce à votre fonction, la matrice sera affichée comme suit:
+```
+1 2 3
+4 5 6
+7 8 9
+```
+
+## 2 - Addition de matrices
+
+Écrivez une fonction C permettant d'additionner deux matrices.  N'hésitez pas à
+réutiliser la fonction de l'exercice précédent pour afficher le résultat.
+L'en-tête de votre fonction devrait ressembler à
+```c
+void additionnerMatrices(int matrice1[3][3],
+                         int matrice2[3][3],
+                         int resultat[3][3]);
+```
+
+Voici un exemple de sortie attendue:
+
+```
+1 2 3
+3 2 1
+1 2 3
++
+4 3 2
+2 3 4
+4 3 2
+=
+5 5 5
+5 5 5
+5 5 5
+```
+
+## 3 - Structures
 
 Considérez les déclarations suivantes :
 
@@ -144,3 +193,8 @@ Prenez n'importe quel programme dans lequel vous avez une erreur de
 segmentation et déboguez-le à l'aide de GDB. Vous pouvez consulter par exemple
 le [tutoriel suivant](http://www.unknownroad.com/rtfm/gdbtut/>) comme point de
 départ.
+
+---
+
+##### Auteur Guy Francoeur
+###### basé sur les travaux d'Alexandre Blondin Massé, Professeur
