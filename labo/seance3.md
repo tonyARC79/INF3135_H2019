@@ -1,11 +1,30 @@
-# Séance 3: Chaînes de caractères, pointeurs et matrices
+# Séance 3: Arguments, Chaînes de caractères et pointeurs
 
 **Note**: Il est recommandé de versionner vos réponses aux exercices à l'aide
 de Git (un seul dépôt est amplement suffisant pour la séance, ou même un seul
 dépôt pour tous les laboratoires, en divisant les fichiers dans des
 répertoires).
 
-## 1 - Chaînes de caractères
+## 1 - Arguments de la fonction main
+
+Écrivez un petit programme C nomme `cmdline.c` qui accepte un nombre limité et
+spécifique en provenance de la ligne de commande.
+
+Vous devez pour faire le traitement des arguments écrire une fonction `int cmdline()`
+qui accepte `-c CODE` obligatoire, et les suivants facultatifs `-1 int`,  `-2 int`, 
+`-d INC | DEC`. `-d` `-1` et `-2` devront être validé et si une erreur est détectée, 
+l'application doit arrêter avec code de retour.
+
+#### code de retour
++ `0` : exécution avec succès;
++ `1` : si -c et/ou le code ne sont pas présents;
++ `2` : si le `-1` et `-2` ne sont pas de type entier naturel N*;
++ `3` : si `-d` et/ou `DEC | INC` ne sont pas présent; 
+
+Q1. Quelle instruction vous permet de retourner le code 0?
+Q2. Quelle instruction vous permet de retourner le code 1?
+
+## 2 - Chaînes de caractères
 
 Écrivez un petit programme C appelé `renverse.c` qui prend tous les arguments
 passés en paramètres, les concatène en ordre inverse et affiche le résultat.
@@ -22,7 +41,7 @@ reposeseetresteesope
 
 N'hésitez pas à utiliser la bibliothèque `string.h`.
 
-## 2 - Palindromes
+## 3 - Palindromes
 
 Écrivez une fonction C dont la signature est
 ```c
@@ -63,7 +82,7 @@ retournent `true`.
 Dans les deux cas, fournissez des tests pour montrer que vos fonctions sont
 correctement implémentées.
 
-## 3 - Fouille dans un tableau
+## 4 - Fouille dans un tableau
 
 Écrivez une fonction C dont la signature est
 ```c
