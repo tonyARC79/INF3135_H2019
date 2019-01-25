@@ -92,6 +92,8 @@ Plus précisément, vous devez respecter les contraintes suivantes:
     pedrohlc
     ```
 
+---
+
 ## 3 - Implémentation d'une file
 
 Complétez l'implémentation d'une structure de données de type "file" (en
@@ -123,3 +125,8 @@ void queueDelete(Queue *s);
 ```
 
 Assurez-vous de gérer correctement la mémoire (pas de fuite)!
+
+---
+
+##### Auteur Guy Francoeur
+###### basé sur les travaux d'Alexandre Blondin Massé, Professeur
