@@ -48,7 +48,7 @@ Plus précisément, vous devez respecter les contraintes suivantes:
 - Le pays doit occuper exactement 4 colonnes aussi (il faut couper sinon);
 - La population doit être alignée à droite.
 
-## 2 - Commandes d'une ligne
+## 2 - Commandes d'une ligne (Linux)
 
 À l'aide des programmes spécifiés entre parenthèses et des tubes (pipes),
 écrivez une commande d'une ligne qui effectue les tâches demandées:
