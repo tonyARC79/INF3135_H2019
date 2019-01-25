@@ -9,7 +9,11 @@
 
 # Description du travail
 
-  Le programme doit découvrir de nouveaux `nombres parfaits` contenus dans un intervalle composé de nombres naturels **N**.  Un nombre est dit parfait lorsque la somme des tous ses diviseurs (excluant lui-même bien sûr) est égal à lui-même.
+  Le programme doit découvrir de nouveaux `nombres parfaits` contenus dans un intervalle composé de entiers naturels. 
+  ```math
+   N = { 0, 1, 2, ... }
+  ```
+  Un nombre est dit parfait lorsque la somme des tous ses diviseurs (excluant lui-même bien sûr) est égal à lui-même.
 
   Le programme `tp1` doit pouvoir être lancé en `ligne de commande` avec _minimalement_ les deux syntaxes suivantes :
 
@@ -40,6 +44,7 @@ $ ./tp1 -c CODE_permanent < nom_du_fichier_en_entree.ext > fichier_sortie.ext
   > > + `$ ./tp1 -c CODE_permanent -i nom_du_fichier_en_entree.ext > fichier_sortie.ext`
   > > + `$ ./tp1 -c CODE_permanent`
   > > + `$ ./tp1 -c CODE_permanent -o fichier.out`
+  > > + `$ cat data.txt | ./tp1 -c CODE_permanent`
   > >
   > > */
 
