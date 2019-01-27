@@ -23,5 +23,5 @@ clone	push	depot, etudiant et projet
 0	1	gitlab.com/oli_lamarche/inf3135-h2019
 0	128	gitlab.com/samisihem/inf3135-h2019
 0	1	gitlab.com/stebenne/inf3135-h2019
-# de depot :22
+# de depot :23
 
