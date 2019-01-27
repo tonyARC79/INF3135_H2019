@@ -1,0 +1,5 @@
+clone	push	depot, etudiant et projet
+-----	----	-------------------------
+	0	gitlab.com/guyfrancoeur/repo_test
+# de depot :0
+
