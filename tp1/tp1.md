@@ -9,7 +9,11 @@
 
 # Description du travail
 
-  Le programme doit découvrir des `nombres parfaits`.  Un nombre est dit parfait lorsque la somme des tous ses diviseurs (excluant lui-même bien sûr) est égal à lui-même.
+  Le programme doit découvrir de nouveaux `nombres parfaits` contenus dans un intervalle composé de entiers naturels. 
+  ```math
+   N = { 0, 1, 2, ... }
+  ```
+  Un nombre est dit parfait lorsque la somme des tous ses diviseurs (excluant lui-même bien sûr) est égal à lui-même.
 
   Le programme `tp1` doit pouvoir être lancé en `ligne de commande` avec _minimalement_ les deux syntaxes suivantes :
 
@@ -20,7 +24,9 @@ $ ./tp1 -c CODE_permanent -i nom_du_fichier_en_entree.ext -o fichier_sortie.ext
 $ ./tp1 -c CODE_permanent < nom_du_fichier_en_entree.ext > fichier_sortie.ext
 ```
   Avec la deuxième méthode, vous avez compris que le programme accepte les données par l'entrée standard `stdin` et produit le résultat dans la sortie standard `stdout`. Les symboles `<` et `>` sont des redirections.
- 
+  
+#### Détails sur les arguments
+
 *  -c `<CODE permanent>`
 *  -i `<fichier source en entrée>`
 *  -o `<fichier traité en sortie>`
@@ -30,6 +36,17 @@ $ ./tp1 -c CODE_permanent < nom_du_fichier_en_entree.ext > fichier_sortie.ext
   pour l'exécution de vos tests c'est acceptable. Mais il serait bien de faire les deux.
 
   **Note**: il se pourrait que la sortie standard `stdout` soit utilisée avec `-i`.
+  
+  > > /*
+  > >
+  > > Quelques exemples valides (mais pas tous)
+  > >
+  > > + `$ ./tp1 -c CODE_permanent -i nom_du_fichier_en_entree.ext > fichier_sortie.ext`
+  > > + `$ ./tp1 -c CODE_permanent`
+  > > + `$ ./tp1 -c CODE_permanent -o fichier.out`
+  > > + `$ cat data.txt | ./tp1 -c CODE_permanent`
+  > >
+  > > */
 
 #### Vous devez réaliser le travail selon les contraintes suivantes:
 
@@ -37,7 +54,8 @@ $ ./tp1 -c CODE_permanent < nom_du_fichier_en_entree.ext > fichier_sortie.ext
 - Vous ne pouvez pas utiliser des librairies `#include` d'un tiers;
 - Seulement un `header` `#include "tp1.h"` de votre création est permis;
 - En plus de sortir les résultats dans `stdout` ou un fichier de résultats, un fichier nommé `code.txt` doit être produit au moment de l'exécution de votre programme et contiendra uniquement votre `CODE PERMANNENT` qui est passé par l'argument `-c`;
-- Les intervalles de découverte sont uniquement des entiers positifs.
+- Les intervalles de découvertes sont uniquement des entiers naturels, **N**;
+> > - Auncun nombre parfait peut être `_coder en dure_` dans vos fichiers. (la note zéro sera attribué pour la fonctionnalité).
 
 # Exemple
 
@@ -75,11 +93,11 @@ Le contenu du fichier de résultats aura un résultat par ligne et sera similair
 - Lorsqu'on entre `make clean`, les fichiers `.o` et l'exécutable doivent être supprimés;
 
 - Lorsqu'on entre `make data`, le téléchargement des données (fichier) https://www.github.com/guyfrancoeur/INF3135_H2019/raw/master/tp1/data.zip se fait
-  de façon automatique. La décompression du fichier est est digigé dans répertoire `./data`;
+  de façon automatique. La décompression du fichier est est dirigée dans répertoire `./data`;
 
 - Lorsqu'on entre `make test` le programme `tp1` s'exécutera séquentiellement avec les fichiers contenus dans `./data`.
   
-- Lorsqu'on entre `make resultat` le fichier `resultat.txt` sera poussé dans votre dépôt.
+- Lorsqu'on entre `make resultat` le fichier `resultat.txt` (créé par un script `bash` qui test et évalue votre travail) situé à la racine du dépôt local sera poussé dans votre projet. 
 
 # Complément
 
@@ -150,7 +168,7 @@ son dépôt GitHub, Bitbucket ou GitLab avec un système de gestion de version t
   l'utilisateur `guyfrancoeur` (moi-même). Ceci me permettra de déposer directement
   dans vos projets votre note pour le travail ainsi que mes commentaires.
   
-  La branche `master` sera celle `cloné` et sera celle qui sera évalué.
+  La branche `master` sera celle `clonée` et sera celle qui sera évaluée.
 
   Votre projet devrait minimalement contenir les fichiers suivants :
 
@@ -170,6 +188,8 @@ et un pull sera effectué de façon automatique.
 Il n'y aura pas d'humain pour faire fonctionner le programme. Un `pull` par jour pendant 7 jours.
 Votre travail sera soumis à plusieurs cas et les résultats seront évalués par un script `bash`.
 Assurez-vous de bien lire toutes les directives et les requis.
+
+> > Les fichiers seront soumis au détecteur de plagiat.
 
 # Barème de correction
 

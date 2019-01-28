@@ -1,11 +1,31 @@
-# Séance 3: Chaînes de caractères, pointeurs et matrices
+# Séance 3: Arguments, Chaînes de caractères et pointeurs
 
 **Note**: Il est recommandé de versionner vos réponses aux exercices à l'aide
 de Git (un seul dépôt est amplement suffisant pour la séance, ou même un seul
 dépôt pour tous les laboratoires, en divisant les fichiers dans des
 répertoires).
 
-## 1 - Chaînes de caractères
+## 1 - Arguments de la fonction main
+
+Écrivez un petit programme C nomme `cmdline.c` qui accepte un nombre limité et
+spécifique en provenance de la ligne de commande.
+
+Vous devez pour faire le traitement des arguments écrire une fonction `int cmdline()`
+qui accepte `-c CODE` obligatoire, et les suivants facultatifs `-1 int`,  `-2 int`, 
+`-d INC | DEC`. `-d` `-1` et `-2` devront être validé et si une erreur est détectée, 
+l'application doit arrêter avec code de retour.
+
+#### code de retour
++ `0` : exécution avec succès;
++ `1` : si -c et/ou le code ne sont pas présents;
++ `2` : si le `-1` et `-2` ne sont pas de type entier naturel N*;
++ `3` : si `-d` et/ou `DEC | INC` ne sont pas présent; 
+
+#### Questions
++ Q1. Quelle instruction vous permet de retourner le code 0?
++ Q2. Quelle instruction vous permet de retourner le code 1?
+
+## 2 - Chaînes de caractères
 
 Écrivez un petit programme C appelé `renverse.c` qui prend tous les arguments
 passés en paramètres, les concatène en ordre inverse et affiche le résultat.
@@ -22,7 +42,7 @@ reposeseetresteesope
 
 N'hésitez pas à utiliser la bibliothèque `string.h`.
 
-## 2 - Palindromes
+## 3 - Palindromes
 
 Écrivez une fonction C dont la signature est
 ```c
@@ -63,7 +83,7 @@ retournent `true`.
 Dans les deux cas, fournissez des tests pour montrer que vos fonctions sont
 correctement implémentées.
 
-## 3 - Fouille dans un tableau
+## 4 - Fouille dans un tableau
 
 Écrivez une fonction C dont la signature est
 ```c
@@ -74,55 +94,6 @@ const double *trouverElement(const double tableau[],
 qui retourne un pointeur vers la première occurrence de `element` dans
 `tableau` si elle existe, ou qui retourne `NULL` sinon, sachant que les indices
 valides de `tableau` sont entre `0` et `taille - 1`.
-
-## 4 - Afficher une matrice
-
-Écrivez une fonction C permettant d'afficher le contenu d'une matrice d'entiers
-de dimensions 3 par 3.
-
-Rappelons qu'on peut initialiser une matrice de la façon suivante
-```c
-int matrice[3][3] = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9} };
-```
-Bien sûr, vous trouverez un moyen d'éliminer les valeurs magiques spécifiant la
-taille de la matrice. L'en-tête de votre fonction devrait ressembler à
-```c
-void afficherMatrice(int matrice[3][3]);
-```
-
-Grâce à votre fonction, la matrice sera affichée comme suit:
-```
-1 2 3
-4 5 6
-7 8 9
-```
-
-## 5 - Addition de matrices
-
-Écrivez une fonction C permettant d'additionner deux matrices.  N'hésitez pas à
-réutiliser la fonction de l'exercice précédent pour afficher le résultat.
-L'en-tête de votre fonction devrait ressembler à
-```c
-void additionnerMatrices(int matrice1[3][3],
-                         int matrice2[3][3],
-                         int resultat[3][3]);
-```
-
-Voici un exemple de sortie attendue:
-
-```
-1 2 3
-3 2 1
-1 2 3
-+
-4 3 2
-2 3 4
-4 3 2
-=
-5 5 5
-5 5 5
-5 5 5
-```
 
 ---
 
