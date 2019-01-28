@@ -6,6 +6,8 @@ clone	push	depot, etudiant et projet
 0	0	github.com/Simon19921/inf3135-h2019
 0	0	github.com/charimene/inf3135-h2019
 0	0	github.com/jmbunderground/inf3135-h2019
+0	0	github.com/justinchenmtl/inf3135-h2019
+0	0	github.com/leohersant/inf3135-h2019
 0	0	github.com/ltpierre/inf3135-h2019
 0	0	github.com/marouenamri/inf3135-h2019
 0	0	github.com/onwilliam/inf3135-h2019
@@ -21,7 +23,7 @@ clone	push	depot, etudiant et projet
 0	128	gitlab.com/jeremy96/inf3135_h2019
 0	1	gitlab.com/mahaghozzi/inf3135-h2019
 0	1	gitlab.com/oli_lamarche/inf3135-h2019
-0	128	gitlab.com/samisihem/inf3135-h2019
-0	1	gitlab.com/stebenne/inf3135-h2019
-# de depot :22
+0	0	gitlab.com/samisihem/inf3135-h2019
+0	0	gitlab.com/stebenne/inf3135-h2019
+# de depot :25
 
