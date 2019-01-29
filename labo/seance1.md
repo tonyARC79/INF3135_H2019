@@ -159,7 +159,7 @@ $
   décrits plus haut
 
     ```shell
-    git add hello.c README.md
+    $ git add hello.c README.md
     ```
 
 - Si vous tapez `git status`, vous devriez voir que les deux fichiers sont
@@ -302,7 +302,7 @@ $
   décrits plus haut
 
     ```shell
-    git add hello.c README.md
+    $ git add hello.c README.md
     ```
 
 - Si vous tapez `git status`, vous devriez voir que les deux fichiers sont
