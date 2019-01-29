@@ -4,6 +4,7 @@ clone	push	depot, etudiant et projet
 0	0	github.com/Anplante/inf3135-h2019
 0	0	github.com/Gawonou/inf3135-h2019
 0	0	github.com/GhadaSou/inf3135-h2019
+0	0	github.com/MIuliaM/inf3135-h2019
 0	0	github.com/OlgaFedo/inf3135-h2019
 0	0	github.com/Simon19921/inf3135-h2019
 0	0	github.com/charimene/inf3135-h2019
@@ -30,7 +31,8 @@ clone	push	depot, etudiant et projet
 0	1	gitlab.com/mahaghozzi/inf3135-h2019
 0	1	gitlab.com/manilarissa/inf3135-h2019
 0	1	gitlab.com/oli_lamarche/inf3135-h2019
-0	0	gitlab.com/samisihem/inf3135-h2019
+0	1	gitlab.com/samisihem/inf3135-h2019
 0	0	gitlab.com/stebenne/inf3135-h2019
-# de depot :32
+0	1	gitlab.com/usselsabbat/inf3135-h2019
+# de depot :34
 
