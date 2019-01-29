@@ -6,7 +6,7 @@
  + Séance 2 (Header 1)
  + Exercice {1..n} (H2)
  + Question {1..n} (H4)
- + S`2`.E`3`.Q`1` (strong) `est une valeur qui change bien sûr`
+ + S`2`.E`3`.Q`1`  `l'entier` est une valeur qui change bien sûr
  + La réponse dans une section script (code block)
 
 **Note**: Il est recommandé de versionner vos réponses aux exercices à l'aide
@@ -66,12 +66,13 @@ Plus précisément, vous devez respecter les contraintes suivantes:
 À l'aide des programmes spécifiés entre parenthèses et des tubes (pipes),
 écrivez une commande d'une ligne qui effectue les tâches demandées:
 
-1. (man, head) Sauvegardez les 20 premières lignes du "manuel d'instructions"
+#### Questions
++ Q1. (man, head) Sauvegardez les 20 premières lignes du "manuel d'instructions"
    de la fonction `printf` dans un fichier nommé `man-printf.txt`.
-2. (curl, grep) Affichez toutes les lignes qui contiennent un commentaire dans
++ Q2. (curl, grep) Affichez toutes les lignes qui contiennent un commentaire dans
    le fichier `array.c` disponible dans le répertoire `exemples` (ne recopiez
    pas le fichier sur votre machine, utilisez le programme curl!).
-3. (git log, grep, sort, uniq) Affichez tous les contributeurs d'un projet
++ Q3. (git log, grep, sort, uniq) Affichez tous les contributeurs d'un projet
    versionné avec git. Par exemple, j'obtiens le résultat suivant pour le
    projet [TMX](https://github.com/baylej/tmx), que j'ai utilisé par le passé:
 
@@ -89,7 +90,7 @@ Plus précisément, vous devez respecter les contraintes suivantes:
     Author: pedrohlc <pedro.laracampos@gmail.com>
     ```
 
-4. (git log, grep, sed, sort, uniq) Modifiez la commande précédente pour
++ Q4. (git log, grep, sed, sort, uniq) Modifiez la commande précédente pour
    obtenir la liste sans prénom et nom en double et sans le préfixe "Author:
    ". Le résultat deviendrait donc (il y en a encore des doublons, puisque
    "Bayle Jonathan" et "baylej" sont sans doute les mêmes personnes, mais
