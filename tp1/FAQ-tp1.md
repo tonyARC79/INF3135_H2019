@@ -124,3 +124,16 @@ voici la liste des codes de retour que votre application doit supporter :
 #### Pour le code `4` voici des précisions
 + un intervalle `1000 0` est valide.
 + L'ensemble valide est : N = entiers naturels; qui inclu 0;
+
+### Q. Je sais qu'il n'y a pas de nombre parfait impair. Puis-je faire des bons de deux ?
+#### Réponse
+~~~~
+Merci pour la question. 
+
+Oui, mais vous devez prouver à l'aide d'une preuve (démonstration) et article scientifique 
+original (entre 2 et 4 pages) pourquoi il n'y aura jamais de nombre parfait impair.
+
+Si votre programme fonctionne, mais que celui-ci utilise une technique douteuse comme les
+bons de deux, vous comprenez que les points liés à la qualité et l'exactitude de la solution
+ne vous seront pas attribués.
+~~~~
