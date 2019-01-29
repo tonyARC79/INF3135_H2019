@@ -9,6 +9,10 @@
  + S`2`.E`3`.Q`1` (strong) `est une valeur qui change bien sûr`
  + La réponse dans une section script (code block)
 
+**Note**: Il est recommandé de versionner vos réponses aux exercices à l'aide
+de Git. Un seul dépôt est amplement suffisant pour tous les laboratoires, en
+divisant les fichiers dans des répertoires.
+
 ## 0 - Préparation avant de commencer
 
 Il serait important de penser à une stratégie de répertoire afin de garder mes fichiers
