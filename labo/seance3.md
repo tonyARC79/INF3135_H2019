@@ -6,7 +6,7 @@
  + Séance 2 (Header 1)
  + Exercice {1..n} (H2)
  + Question {1..n} (H4)
- + S`2`.E`3`.Q`1` (strong) `est une valeur qui change bien sûr`
+ + S`2`.E`3`.Q`1`  `l'entier` est une valeur qui change bien sûr
  + La réponse dans une section script (code block)
 
 **Note**: Il est recommandé de versionner vos réponses aux exercices à l'aide
