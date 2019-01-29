@@ -1,6 +1,6 @@
 # Séance 2: Unix, Git, Makefiles et bases du C
 
-**Note** : (_facultatif_) S'il y a des questions dans le labo veuillez écrire dans un fichier nommé `./labo/reponse-labo.md` dans un format `Markdown` vos conclusions aux questions. Utilisez le projet `inf3135-h2019` pour déposer le fichier `reponse-labo.md` soit le même que pour vos travaux pratiques.  Utilisez un autre `projet` pour vos exercices.  
+**Note** : (_facultatif_) S'il y a des questions dans le labo répondre dans un fichier nommé `./labo/reponse-labo.md` dans un format `Markdown` vos conclusions aux questions. Utilisez le projet `inf3135-h2019` pour déposer le fichier `reponse-labo.md` soit le même que pour vos exercices.  Utilisez un autre `projet` pour vos travaux pratiques.  
 
 ##### Format du fichier Markdown
  + Séance 2 (Header 1)
