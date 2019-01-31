@@ -38,3 +38,6 @@ clone	push	depot, etudiant et projet
 0	128	gitlab.com/guillaumetb/inf3135_h2019
 # de depot :36
 
+erreur :
+128: Le nom du projet est errone.
+  1: You are not allowed to push into this branch. *Droits d'ecriture dans la branch master.*
