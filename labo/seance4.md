@@ -113,7 +113,7 @@ Plus précisément, vous devez respecter les contraintes suivantes:
   votre dépôt local.   Le script doit créer le nouveau répertoire  dans votre `$HOME`.
   Le nouveau projet sera créé dans votre gestionnaire de   source préféré entre GitLab ou GitHub.
  
-## FIN.
+### FIN.
 ---
 
 ## 3 - Implémentation d'une file (ne pas faire ceci va être remis à plus tard)
