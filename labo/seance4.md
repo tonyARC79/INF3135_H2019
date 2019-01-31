@@ -69,9 +69,11 @@ Plus précisément, vous devez respecter les contraintes suivantes:
 #### Questions
 + Q1. (man, head) Sauvegardez les 20 premières lignes du "manuel d'instructions"
    de la fonction `printf` dans un fichier nommé `man-printf.txt`.
+   
 + Q2. (curl, grep) Affichez toutes les lignes qui contiennent un commentaire dans
    le fichier `array.c` disponible dans le répertoire `exemples` (ne recopiez
    pas le fichier sur votre machine, utilisez le programme curl!).
+   
 + Q3. (git log, grep, sort, uniq) Affichez tous les contributeurs d'un projet
    versionné avec git. Par exemple, j'obtiens le résultat suivant pour le
    projet [TMX](https://github.com/baylej/tmx), que j'ai utilisé par le passé:
@@ -105,10 +107,16 @@ Plus précisément, vous devez respecter les contraintes suivantes:
     baylej
     pedrohlc
     ```
-
+ 
++ Q5. Vous devez créer un script `bash` nommé `creer_depot.sh` qui accepte le nom nouveau 
+  projet comme paramètre.  Le même paramètre sera utilisé comme nom de `répertoire` pour héberger
+  votre dépôt local.   Le script doit créer le nouveau répertoire  dans votre `$HOME`.
+  Le nouveau projet sera créé dans votre gestionnaire de   source préféré entre GitLab ou GitHub.
+ 
+## FIN.
 ---
 
-## 3 - Implémentation d'une file
+## 3 - Implémentation d'une file (ne pas faire ceci va être remis à plus tard)
 
 Complétez l'implémentation d'une structure de données de type "file" (en
 anglais *queue*) à partir des déclarations suivantes:
