@@ -16,27 +16,31 @@ clone	push	depot, etudiant et projet
 0	0	github.com/kd-uqam/inf3135-h2019
 0	0	github.com/leohersant/inf3135-h2019
 0	0	github.com/ltpierre/inf3135-h2019
+0	0	github.com/malarissa/inf3135-h2019
 0	0	github.com/marouenamri/inf3135-h2019
 0	0	github.com/onwilliam/inf3135-h2019
 0	0	github.com/robinstpierre/inf3135-h2019
 0	0	github.com/sanajaziri/inf3135-h2019
 0	0	github.com/tannazhz/inf3135-h2019
+0	0	github.com/usselsabbat/inf3135-h2019
 0	0	gitlab.com/LauG/inf3135-h2019
-0	1	gitlab.com/MHPhoenix/inf3135-h2019
+0	1	gitlab.com/Lisaquirit/inf3135-h2019
+0	0	gitlab.com/MHPhoenix/inf3135-h2019
 0	1	gitlab.com/Momo_dkt/inf3135-h2019
 0	0	gitlab.com/Senerio/inf3135-h2019
 0	1	gitlab.com/ardo_fall/inf3135-h2019
+0	1	gitlab.com/dMaryse/inf3135-h2019
+0	1	gitlab.com/dbrsseau/inf3135-h2019
 0	0	gitlab.com/fadi.feghaly/inf3135-h2019
 0	1	gitlab.com/geoSara/inf3135-h2019
+0	128	gitlab.com/guillaumetb/inf3135_h2019
 0	128	gitlab.com/jeremy96/inf3135_h2019
 0	1	gitlab.com/mahaghozzi/inf3135-h2019
 0	1	gitlab.com/manilarissa/inf3135-h2019
 0	1	gitlab.com/oli_lamarche/inf3135-h2019
 0	0	gitlab.com/samisihem/inf3135-h2019
 0	0	gitlab.com/stebenne/inf3135-h2019
-0	0	github.com/usselsabbat/inf3135-h2019
-0	128	gitlab.com/guillaumetb/inf3135_h2019
-# de depot :36
+# de depot :40
 
 erreur :
 128: Le nom du projet est errone.
