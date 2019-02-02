@@ -30,7 +30,7 @@ clone	push	depot, etudiant et projet
 0	0	gitlab.com/Senerio/inf3135-h2019
 0	1	gitlab.com/ardo_fall/inf3135-h2019
 0	1	gitlab.com/dMaryse/inf3135-h2019
-0	1	gitlab.com/dbrsseau/inf3135-h2019
+0	0	gitlab.com/dbrsseau/inf3135-h2019
 0	0	gitlab.com/fadi.feghaly/inf3135-h2019
 0	1	gitlab.com/geoSara/inf3135-h2019
 0	128	gitlab.com/guillaumetb/inf3135_h2019
