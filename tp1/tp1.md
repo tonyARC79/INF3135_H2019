@@ -31,9 +31,9 @@ $ ./tp1 -c CODE_permanent < nom_du_fichier_en_entree.ext > fichier_sortie.ext
 *  -i `<fichier source en entrée>`
 *  -o `<fichier traité en sortie>`
 
-  Le `CODE permanent` provient du fichier `cp.txt`.  Une variable dans le `Makefile` doit être créée 
-  pour récupérer le contenu du fichier `cp.txt`. Si vous préférez un faire appel à un fichier `bash`
-  pour l'exécution de vos tests c'est acceptable. Mais il serait bien de faire les deux.
+  > > Le `CODE permanent` provient du fichier `cp.txt`.  Une variable nommé `CP` dans le `Makefile` doit être créée 
+  > > pour récupérer le contenu du fichier `cp.txt`. Il est aussi possible de faire appel à un fichier `bash`
+  > > pour l'exécution de vos tests c'est acceptable. Mais il serait bien de faire les deux.
 
   **Note**: il se pourrait que la sortie standard `stdout` soit utilisée avec `-i`.
   
@@ -112,8 +112,8 @@ pour traquer certaines erreurs et les mauvaises pratiques de programmation.
 # README.md
 
   En plus du code source nommé `tp1.c` et du fichier nommé `Makefile`, votre projet doit contenir
-  un fichier nommé `README.md` qui décrit le contenu et qui **respecte le
-  format Markdown**. Il doit minimalement contenir les informations ci-bas :
+  un fichier nommé `README.md` qui décrit le contenu et qui **respecte le format Markdown**.
+  Il doit minimalement contenir les informations ci-bas :
 
 ~~~~
    # Travail pratique 1
