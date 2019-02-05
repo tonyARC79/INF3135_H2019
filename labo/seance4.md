@@ -116,39 +116,5 @@ Plus précisément, vous devez respecter les contraintes suivantes:
 ### FIN.
 ---
 
-## 3 - Implémentation d'une file (ne pas faire ceci va être remis à plus tard)
-
-Complétez l'implémentation d'une structure de données de type "file" (en
-anglais *queue*) à partir des déclarations suivantes:
-
-```c
-// Types
-// -----
-
-struct QueueNode {
-    char content;           // Contenu du noeud
-    struct QueueNode *prev; // Noeud precedent
-    struct QueueNode *next; // Noeud suivant
-};
-
-typedef struct {
-    struct QueueNode *first; // Pointeur vers le premier noeud
-    struct QueueNode *last;  // Pointeur vers le dernier noeud
-} Queue;
-
-// Prototypes
-// ----------
-
-Queue queueCreate();
-bool queueIsEmpty(const Queue *s);
-void queuePush(Queue *s, char content);
-char queuePop(Queue *s);
-void queueDelete(Queue *s);
-```
-
-Assurez-vous de gérer correctement la mémoire (pas de fuite)!
-
----
-
 ##### Auteur Guy Francoeur
 ###### basé sur les travaux d'Alexandre Blondin Massé, Professeur
