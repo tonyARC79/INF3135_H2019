@@ -1,4 +1,4 @@
-# Séance 4: Entrées et sorties, allocation dynamique
+# Séance 4: Entrées et sorties et Linux
 
 **Note** : (_facultatif_) S'il y a des questions dans ce labo, répondez y dans un fichier nommé `./labo/reponse-labo.md`.  Le fichier doit être dans un format `Markdown`. Utilisez le projet `inf3135-h2019` pour déposer le fichier `./labo/reponse-labo.md` soit le même que pour vos exercices.  Utilisez un autre `projet` pour vos travaux pratiques.   
 
