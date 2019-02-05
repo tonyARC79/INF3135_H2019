@@ -90,7 +90,7 @@ Le contenu du fichier de résultats aura un résultat par ligne et sera similair
 - Lorsqu'on entre simplement `make`, l'exécutable `tp1` doit être produit (ou mis à jour), 
   avec les arguments suivants (obligatoire) : `-Wall -pedantic -std=c99`;
 
-> > - Lorsqu'on entre `make clean`, les fichiers `.o`, `code.txt` et l'exécutable doivent être supprimés (uniquement les fichiers provenant du dépôt devrait rester);
+> > - Lorsqu'on entre `make clean`, les fichiers `.o`, `code.txt` et l'exécutable doivent être supprimés (uniquement les fichiers provenant du dépôt devraient rester);
 
 - Lorsqu'on entre `make data`, le téléchargement des données (fichier) https://www.github.com/guyfrancoeur/INF3135_H2019/raw/master/tp1/data.zip se fait
   de façon automatique. La décompression du fichier est est dirigée dans répertoire `./data`;
