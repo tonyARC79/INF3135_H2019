@@ -11,7 +11,7 @@
 - séance 4 base du langage C partie 3
 - séance 5 entrés et sortie
 - séance 6 maintenance et modules
-- séance 7 ...
+- séance 7 allocation dynamique et structure de données
 
 #### Laboratoires:
 - séance 1
