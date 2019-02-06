@@ -8,11 +8,18 @@
 - séance 1 introduction
 - séance 2 base du langage C partie 1 (retour sur ssh et linux)
 - séance 3 base du langage C partie 2
+- séance 4 base du langage C partie 3
+- séance 5 entrés et sortie
+- séance 6 maintenance et modules
+- séance 7 ...
 
 #### Laboratoires:
 - séance 1
 - séance 2
 - séance 3
+- séance 4
+- séance 5
+- séance 6
 
 Les moniteurs de laboratoire sont Alexandre Lachapelle et Hamara Touré.
 
