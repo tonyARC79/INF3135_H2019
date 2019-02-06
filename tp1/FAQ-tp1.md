@@ -131,9 +131,15 @@ voici la liste des codes de retour que votre application doit supporter :
 Merci pour la question. 
 
 Oui, mais vous devez prouver à l'aide d'une preuve (démonstration) et article scientifique 
-original (entre 2 et 4 pages) nous dire pourquoi il n'y aura jamais de nombre parfait impair.
+original (entre 2 et 4 pages) qui explique pourquoi il n'y aura jamais de nombre parfait impair.
 
 Si votre programme fonctionne, mais que celui-ci utilise une technique douteuse comme les
 bons de deux, vous comprenez que les points liés à la qualité et l'exactitude de la solution
 ne vous seront pas attribués.
+~~~~
+
+### Q. Puis-ce que `0 1000` et `1000 0` sont valides dans quel ordre affiche-t-on les nombres parfaits?
+#### Réponse
+~~~~
+Croissant
 ~~~~
