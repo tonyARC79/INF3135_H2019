@@ -143,3 +143,19 @@ ne vous seront pas attribués.
 ~~~~
 Croissant
 ~~~~
+
+### Q. Est-ce que l'ordre des `options` de la ligne de commande pour `tp1` est fixe?
+#### Réponse
+~~~~
+non, il n'y a pas d'ordre pour les options.
+~~~~
+> > Vous devez comprendre que ceci est le cas pour toutes les applications `Linux` :
+> > `$ ls -l -a` est la même chose que `$ ls -a -l`
+> > Les options sont nommées, donc elle peuvent être utiliser n'importe ou dans la ligne de commande. 
+
+### Q. Comment je fais pour avoir le code permanent du fichier, dois-je le taper ou lire le fichier dans le programme tp1.c?
+#### Réponse
+~~~~
+Non rien de tout cela. simple simple simple.
+Une variable doit être utiliser dans votre Makefile pour extraire le code et le passer à la ligne de commande.
+~~~~
