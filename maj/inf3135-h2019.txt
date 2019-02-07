@@ -14,7 +14,7 @@ clone	push	depot, etudiant et projet
 0	0	github.com/jmbunderground/inf3135-h2019
 0	0	github.com/josuetorr/inf3135-h2019
 0	0	github.com/justinchenmtl/inf3135-h2019
-0	128	github.com/kaidyas21/INF3135-H2019
+0	0	github.com/kaidyas21/inf3135-h2019
 0	0	github.com/kd-uqam/inf3135-h2019
 0	0	github.com/leohersant/inf3135-h2019
 0	0	github.com/ltpierre/inf3135-h2019
@@ -37,15 +37,14 @@ clone	push	depot, etudiant et projet
 0	0	gitlab.com/dbrsseau/inf3135-h2019
 0	0	gitlab.com/fadi.feghaly/inf3135-h2019
 0	1	gitlab.com/geoSara/inf3135-h2019
-0	1	gitlab.com/guillaumetb/inf3135-h2019
-128	0	gitlab.com/jeremy96/inf3135_h2019
+0	0	gitlab.com/guillaumetb/inf3135-h2019
 0	0	gitlab.com/joeybara/inf3135-h2019
 0	1	gitlab.com/mahaghozzi/inf3135-h2019
 0	1	gitlab.com/manilarissa/inf3135-h2019
 0	1	gitlab.com/oli_lamarche/inf3135-h2019
 0	0	gitlab.com/samisihem/inf3135-h2019
 0	0	gitlab.com/stebenne/inf3135-h2019
-# de depot :45
+# de depot :44
 
 erreur :
 128: Le nom du projet est errone.
