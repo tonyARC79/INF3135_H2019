@@ -151,7 +151,7 @@ non, il n'y a pas d'ordre pour les options.
 ~~~~
 > > Vous devez comprendre que ceci est le cas pour toutes les applications `Linux` :
 > > `$ ls -l -a` est la même chose que `$ ls -a -l`
-> > Les options sont nommées, donc elle peuvent être utiliser n'importe ou dans la ligne de commande. 
+> > Les options sont nommées, donc elle peuvent être utiliser n'importe ou sur la ligne de commande. 
 
 ### Q. Comment je fais pour avoir le code permanent du fichier, dois-je le taper ou lire le fichier dans le programme tp1.c?
 #### Réponse
