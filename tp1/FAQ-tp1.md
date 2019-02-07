@@ -16,11 +16,9 @@ Suite à plusieurs demandes, je change ma réponse de non à OUI.
 
 Donc, assurez-vous que le code est 12 de long (donc présent). Dans le 
 cas contraire, on arrête le programme et un code de retour est émis.
-
-Le code est uniquement nécessaire pour associer le travail à un
-individu et publier vos résultats.
 ~~~~
-
+> > Le code permanent est uniquement nécessaire pour associer le travail à un
+> > individu et publier vos résultats dans `RESULTATS`.
 
 ### Q. Est ce qu’il serait possible qu’il y ait une erreur ou corruption dans le fichier data.zip
 #### Réponse
@@ -29,13 +27,11 @@ Soyez certain de prendre le lien du tp1.md. Il y a le mot 'raw' dans le url.
 Il s'agit d'un fichier binaire (zip), il faut le transférer comme tel.
 ~~~~
 
-
 ### Q. Est-ce que les fichiers pour les tests (./data) ont obligatoirement comme extension .txt ?
 #### Réponse
 ~~~~
 Les fichiers sont de type texte, mais pas obligatoirement avec une extension .txt.
 ~~~~
-
 
 ### Q. Devons nous faire les tests de temps d’exécutions en termes de valeur de temps ?
 #### Réponse
@@ -52,6 +48,7 @@ Si vous avez besoin de plusieurs tests (ex pour faire les autres commandes) vous
 le loisir de créer un test2, test3, test4 ou test_all.  
 Faire ce qui vous rend confortable. Des tests il y en a jamais trop!
 ~~~~
+
 ### Q. Allez-vous nous fournir une série de tests pour l'évaluation? Sinon, doit-on la créer nous-mêmes?
 #### Réponse
 ~~~~
