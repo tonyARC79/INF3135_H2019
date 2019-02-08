@@ -21,6 +21,13 @@
 - séance 5
 - séance 6
 
+#### Linux
+
+Le langage C est intimement lié au système d'exploitation Unix (et vice versa).  Aujourd'hui nous 
+parlons de Linux un `OS`, en anglais, qui est stable et performant.  `Linux` et `Bash` seront vus
+et nécessaires pour l'accomplissement de tâches dans le cadre de ce cours. 
+
+
 Les moniteurs de laboratoire sont Alexandre Lachapelle et Hamara Touré.
 
 
@@ -37,6 +44,7 @@ Ce cours est basé sur les travaux d'Alexandre Blondin Massé, Professeur, que j
 + [TIOBE Index for January 2019](https://www.tiobe.com/tiobe-index/ "Usage des langages de programmation")
 + [The C Programming Language - TIOBE Graph](https://www.tiobe.com/tiobe-index/c/ "Langage C")
 + [cplusplus.com REFERENCE](http://www.cplusplus.com/reference/ "cplusplus.com REFERENCE")
++ [101 commandes indispensables sous linux](https://buzut.fr/101-commandes-indispensables-sous-linux/ "101 commandes indispensables sous linux")
 
 ----
 
