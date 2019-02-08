@@ -1,3 +1,5 @@
+clone	push	depot, etudiant et projet
+-----	----	-------------------------
 0	0	github.com/AYOUBKHALFI/inf3135-h2019
 0	0	github.com/Anplante/inf3135-h2019
 0	0	github.com/Gawonou/inf3135-h2019
@@ -45,3 +47,4 @@
 
 erreur :
 128: Le nom du projet est errone.
+  1: You are not allowed to push into this branch. *Droits d'ecriture dans la branch master.*
