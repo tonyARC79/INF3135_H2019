@@ -1,0 +1,64 @@
+clone	push	depot, etudiant et projet
+-----	----	-------------------------
+128	0	github.com/AYOUBKHALFI/inf3135-h2019-tp1
+128	0	github.com/AladdinMoumayz/inf3135-h2019-tp1
+128	0	github.com/Anplante/inf3135-h2019-tp1
+128	0	github.com/ClaudelLucien/inf3135-h2019-tp1
+128	0	github.com/Gawonou/inf3135-h2019-tp1
+128	0	github.com/LouisEtienneLemire/inf3135-h2019-tp1
+128	0	github.com/MIuliaM/inf3135-h2019-tp1
+128	0	github.com/MassekMeriam/inf3135-h2019-tp1
+128	0	github.com/Momo105/inf3135-h2019-tp1
+128	0	github.com/OlgaFedo/inf3135-h2019-tp1
+128	0	github.com/PaulMillimouno/inf3135-h2019-tp1
+128	0	github.com/Simon19921/inf3135-h2019-tp1
+128	0	github.com/ahmedsalia/inf3135-h2019-tp1
+128	0	github.com/babosa1/inf3135-h2019-tp1
+128	0	github.com/btaousoussema/inf3135-h2019-tp1
+128	0	github.com/charimene/inf3135-h2019-tp1
+128	0	github.com/dychen23/inf3135-h2019-tp1
+128	0	github.com/fawzig/inf3135-h2019-tp1
+128	0	github.com/hervesavidetove/inf3135-h2019-tp1
+128	0	github.com/jmbunderground/inf3135-h2019-tp1
+128	0	github.com/josuetorr/inf3135-h2019-tp1
+128	0	github.com/justinchenmtl/inf3135-h2019-tp1
+1	0	github.com/kaidyas21/inf3135-h2019-tp1
+128	0	github.com/leohersant/inf3135-h2019-tp1
+128	0	github.com/lordjtx/inf3135-h2019-tp1
+128	0	github.com/ltpierre/Inf3135-h2019-tp1
+128	0	github.com/malarissa/inf3135-h2019-tp1
+1	0	github.com/powerbear714/inf3135-h2019-tp1
+128	0	github.com/robinstpierre/inf3135-h2019-tp1
+128	0	github.com/salaheddine19/inf3135-h2019-tp1
+128	0	github.com/sanajaziri/inf3135-h2019-tp1
+128	0	github.com/tannazhz/inf3135-h2019-tp1
+1	0	github.com/tonyARC79/inf3135-h2019-tp1
+128	0	github.com/usselsabbat/inf3135-h2019-tp1
+128	0	gitlab.com/AndyTT/inf3135-h2019-tp1
+128	0	gitlab.com/Bacheney/inf3135-h2019-tp1
+1	0	gitlab.com/DaSilvaMatheus/inf3135-h2019-tp1
+1	0	gitlab.com/HaniehTZ/in3135-h2019-tp1
+128	0	gitlab.com/LauG/inf3135-h2019-tp1
+128	0	gitlab.com/Lisaquirit/inf3135-h2019-tp1
+128	0	gitlab.com/MHPhoenix/inf3135-h2019-tp1
+128	0	gitlab.com/Momo_dkt/inf3135-h2019-tp1
+141	0	gitlab.com/Senerio/inf3135-h2019-tp1
+128	0	gitlab.com/TristanE/inf3135-h2019-tp1
+128	0	gitlab.com/ardo_fall/inf3135-h2019-tp1
+1	0	gitlab.com/bassami/inf3135-h2019-tp1
+128	0	gitlab.com/ca.desjardins/inf3135-h2019-tp1
+128	0	gitlab.com/dMaryse/inf3135-h2019-tp1
+128	0	gitlab.com/dbrsseau/inf3135-h2019-tp1
+128	0	gitlab.com/geoSara/inf3135-h2019-tp1
+1	0	gitlab.com/guillaumetb/inf3135-h2019-tp1
+128	0	gitlab.com/jeremy96/inf3135-h2019-tp1
+128	0	gitlab.com/mahaghozzi/inf3135-h2019
+128	0	gitlab.com/octdubois/inf3135-h2019-tp1
+128	0	gitlab.com/samisihem/inf3135-h2019-tp1
+128	0	gitlab.com/stebenne/inf3135-h2019-tp1
+1	0	gitlab.com/usselsabbat/inf3135-h2019-tp1
+# de depot :57
+
+erreur :
+128: Le nom du projet est errone.
+  1: You are not allowed to push into this branch. *Droits d'ecriture dans la branch master.*
