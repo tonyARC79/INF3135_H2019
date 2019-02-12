@@ -160,11 +160,12 @@ Une fois le .h fini vous aller écrire un .c qui fera les actions suivantes :
   + mettre une plus grande valeur (ex UULONG_MAX - 10) dans n
   + afficher lo et hi
 
-#### Q1. Que se passe-t-il à la compilation ?
-#### Q2. Quelles sont les valeurs de lo et hi (première fois) ?
-#### Q3. Quelles sont les valeurs de lo et hi (deuxième fois) ?
-#### Q4. Expliquer dans vos mots little endian.
-#### Q5. Expliquer dans vos mots big endian (vous pouvez le comparer).
+#### Questions
++ Q1. Que se passe-t-il à la compilation ?
++ Q2. Quelles sont les valeurs de lo et hi (première fois) ?
++ Q3. Quelles sont les valeurs de lo et hi (deuxième fois) ?
++ Q4. Expliquer dans vos mots little endian.
++ Q5. Expliquer dans vos mots big endian (vous pouvez le comparer).
 
 ## 6 - Débogueur GDB
 
