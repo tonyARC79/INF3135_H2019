@@ -84,12 +84,9 @@ struct Triangle {
 
 1. Écrivez une fonction
     ```c
-    void initialiserSegment(struct Segment *segment,
-                            double x1, double y1,
-                            double x2, double y2);
+    void initialiserSegment(struct Segment *segment, double x1, double y1, double x2, double y2);
     ```
-   qui crée un segment dont les extrémités sont les points `(x1,y1)` et
-   `(x2,y2)`.
+   qui crée un segment dont les extrémités sont les points `(x1,y1)` et `(x2,y2)`.
 
 2. Écrivez une fonction
     ```c
@@ -115,60 +112,8 @@ struct Triangle {
    faites appel à la fonction `longueurSegment` que vous avez implémentée plus
    tôt.
 
-## 2 - Unions
 
-Dans cette question, vous devez écrire un programme qui permet de résoudre une
-équation du second degré $`ax^2 + by + c = 0`$. Comme vous vous rappelez
-sûrement de vos études secondaires, le nombre de solutions réelles à cette
-équation est variable et dépend uniquement du signe de la quantité $`\Delta =
-b^2 - 4ac`$ ($`\Delta`$ est la lettre grecque majuscule prononcée "delta"):
-
-- Si $`\Delta > 0`$, alors il existe deux solutions, qui sont
-    ```math
-    \frac{-b - \sqrt{\Delta}}{2a} \quad \text{et} \quad \frac{-b + \sqrt{\Delta}}{2a};
-    ```
-
-- Si $`\Delta = 0`$, alors il existe une solution, qui est $`-b / 2a`$;
-- Si $`\Delta < 0`$, alors il n'existe aucune solution.
-
-Pour cette raison, on définit les deux types suivants:
-```c
-struct Couple {
-    double elem1;
-    double elem2;
-};
-
-struct Solution {
-    unsigned int nbSolutions;    // Le nombre de solutions de l'équation
-    union {
-        double solution1;        // La solution unique quand delta = 0
-        struct Couple solution2; // Les deux solutions quand delta > 0
-    } solutions;
-};
-```
-Le champ `solutions` n'est pas défini quand $`\Delta < 0`$.
-
-1. Implémentez une fonction
-    ```c
-    struct Solution resoudreEquation(double a, double b, double c);
-    ```
-   qui retourne une instance de type `struct Solution` représentant toutes les
-   solutions (aucune, une ou deux) à l'équation $`ax^2 + by + c = 0`$.
-
-2. Implémentez une fonction
-    ```c
-    void afficherSolution(const struct Solution *solution);
-    ```
-   qui affiche sur la sortie standard les solutions d'une équation du second
-   degré de l'une des 3 façons suivantes selon le nombre de solutions de
-   l'équation:
-    ```text
-    L'équation n'admet aucune solution
-    L'équation admet une solution : 4.000000
-    L'équation admet deux solutions : 3.000000 et 5.000000
-    ```
-
-## 3 - Unions et types énumératifs
+## 4 - Unions et types énumératifs
 
 Considérons la structure de données suivante :
 
@@ -195,7 +140,32 @@ et qui retourne le maximum entre les nombres `a` et `b`, peu importe leur type.
 
 ---
 
-## 4 - Débogueur GDB
+## 5 Union (en action) et .h
+
+Vous devez implémenter le code suivant dans un .h et faire un programme qui l'inclura ainsi que répondre aux questions qui suivent: 
+~~~~
+union L64 {
+  unsigned long long n;
+  struct {
+    unsigned long lo;
+    unsigned long hi;
+  };
+};
+~~~~
+
+Une fois le .h fini vous aller écrire un .c qui fera les actions suivantes :
+  + mettre une valeur (ex 12345) dans `n`
+  + afficher lo et hi
+  + mettre une plus grande valeur (ex UULONG_MAX - 10) dans n
+  + afficher lo et hi
+
+#### Q1. Que se passe-t-il à la compilation ?
+#### Q2. Quelles sont les valeurs de lo et hi (première fois) ?
+#### Q3. Quelles sont les valeurs de lo et hi (deuxième fois) ?
+#### Q4. Expliquer dans vos mots little endian.
+#### Q5. Expliquer dans vos mots big endian (vous pouvez le comparer).
+
+## 6 - Débogueur GDB
 
 Prenez n'importe quel programme dans lequel vous avez une erreur de
 segmentation et déboguez-le à l'aide de GDB. Vous pouvez consulter par exemple
