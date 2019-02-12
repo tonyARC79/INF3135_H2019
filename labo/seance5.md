@@ -1,4 +1,4 @@
-# Séance 5: Pointeurs, structures, unions, types énumératifs
+# Séance 5: Matrices, structures, unions, types énumératifs
 
 **Note** : (_facultatif_) S'il y a des questions dans ce labo, répondez y dans un fichier nommé `./labo/reponse-labo.md`.  Le fichier doit être dans un format `Markdown`. Utilisez le projet `inf3135-h2019` pour déposer le fichier `./labo/reponse-labo.md` soit le même que pour vos exercices.  Utilisez un autre `projet` pour vos travaux pratiques.   
 
@@ -140,9 +140,10 @@ et qui retourne le maximum entre les nombres `a` et `b`, peu importe leur type.
 
 ---
 
-## 5 Union (en action) et .h
+## 5 Unions (en action)
 
-Vous devez implémenter le code suivant dans un .h et faire un programme qui l'inclura ainsi que répondre aux questions qui suivent: 
+Vous devez implémenter le code suivant dans un .h et faire un programme qui l'inclura en plus de répondre aux questions qui suivent: 
+
 ~~~~
 union L64 {
   unsigned long long n;
