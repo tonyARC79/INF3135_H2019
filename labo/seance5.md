@@ -146,10 +146,10 @@ Vous devez implémenter le code suivant dans un .h et faire un programme qui l'i
 
 ~~~~
 union L64 {
-  unsigned long long n;
+  unsigned long n;
   struct {
-    unsigned long lo;
-    unsigned long hi;
+    unsigned int lo;
+    unsigned int hi;
   };
 };
 ~~~~
@@ -157,7 +157,7 @@ union L64 {
 Une fois le .h fini vous aller écrire un .c qui fera les actions suivantes :
   + mettre une valeur (ex 12345) dans `n`
   + afficher lo et hi
-  + mettre une plus grande valeur (ex UULONG_MAX - 10) dans n
+  + mettre une plus grande valeur (ex ULONG_MAX - 10) dans n
   + afficher lo et hi
 
 #### Questions
