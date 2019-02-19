@@ -1,10 +1,10 @@
-1    1 make (default:)       grep 'default :\|default:' Makefile | . <( echo return $(wc -l) )
+1    0 make (default:)       grep -c -e 'default :' -e 'default:' Makefile
 1    0 make                  timeout 5s make
 1    0 make data             timeout 20s make data
 1    0 make data (verif)     ls -1 ./data/data.txt
 1    0 make test             timeout 20s make test
 1    0 make clean            timeout 10s make clean && make clean
-1    1 make resultat         grep 'resultat :\|resultat:' Makefile | . <( echo return $(wc -l) )
+1    0 make resultat         grep -c -e 'resultat:' -e 'resultat :' Makefile
 2    0 README.md             ls README.md > /dev/null 2>&1
 2    0 compilation           gcc -Wall -pedantic -std=c99 -lm -O1 -o tp1 tp1.c
 1    0 code.txt              timeout 30s ./tp1 -c $(cat cp.txt) -i ~/depot/data0.in ; ls code.txt > /dev/null 2>&1
@@ -15,8 +15,8 @@
 1    5 c.retour 5            timeout 10s ./tp1 -c $(cat cp.txt) -i ok.txt
 1    6 c.retour 6            timeout 10s ./tp1 -c $(cat cp.txt) -o ./ok/ok.txt < ~/depot/data1.in
 1    0 test 1                timeout 120s ./tp1 -c $(cat cp.txt) -o res.out < ~/depot/data1.in
-1    0 resultat 1            diff res.out ~/depot/data1.res
+1    0 resultat 1            diff -y res.out ~/depot/data1.res
 2    0 test 2                timeout 120s ./tp1 -c $(cat cp.txt) -i ~/depot/data2.in > res.out
-2    0 resultat 2            diff res.out ~/depot/data2.res
+2    0 resultat 2            diff -y res.out ~/depot/data2.res
 2    0 Qualite               timeout 300s ./tp1 -c $(cat cp.txt) < ~/depot/data3.in > res.out
-2    0 Qualite               diff res.out ~/depot/data3.res
+2    0 Qualite               diff -y res.out ~/depot/data3.res
