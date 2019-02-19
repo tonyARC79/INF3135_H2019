@@ -34,7 +34,7 @@ $ #changer le droit avec ?
 $ 
 ~~~~
 
-Lancer le script depuis votre répertoire (dépot local) afin de vérifier si les fichier sont présents et le nombre de jours depuis la dernière édition.
+Lancer le script depuis votre répertoire (dépôt local) afin de vérifier si les fichiers sont présents et le nombre de jours depuis la dernière édition.
 
 + un exemple :
 ~~~~
@@ -64,9 +64,9 @@ be et
 12345 18446744073709551615
 ~~~~
 
-+ Q1. Quel est la stratégie
-+ Q2. Approche pour realiser le travail ?
-+ Q3. Difficultés rencontrées
++ Q1. Quelle est la stratégie ?
++ Q2. Approche pour réaliser le travail ?
++ Q3. Difficultés rencontrées ?
 
 
 ## 3 - Implémentation d'une file
