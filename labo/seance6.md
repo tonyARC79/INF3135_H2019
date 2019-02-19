@@ -13,7 +13,41 @@
 de Git. Un seul dépôt est amplement suffisant pour tous les laboratoires, en
 divisant les fichiers dans des répertoires.
 
-## 1 - Implémentation d'une file
+## 1 - Mon premier script bash
+
+Vous devez faire un script `bash` qui va lire les lignes d'un fichier et lister depuis combien de temps
+_les fichiers mentionnés_ n'ont pas été édité. 
+Vous pouvez prendre votre dépôt `GitHub` ou `GitLab`!
+
+#### fichiers.lst
+~~~~
+Makefile
+tp1.c
+~~~~
+
+Les commandes importantes sont : `cd`, `ls`, `for`, `cat`, `date`, `git log -1 --format="%ai" -- $filename`
+
+#### éditer le fichier vérifier.sh
+~~~~
+$ nano verifier.sh
+$ #changer le droit avec ?
+$ 
+~~~~
+
+Lancer le script depuis votre répertoire (dépot local) afin de vérifier si les fichier sont présents et le nombre de jours depuis la dernière édition.
+
++ un exemple :
+~~~~
+$ DEPOT=$HOME/depot/inf3135-h2019-tp1
+$ cd $DEPOT
+$ ./verifier.sh
+~~~~
+
+*Note* Vous aurez aussi compris que le script sera utile pour savoir si tous les fichiers existent dans mon dépôt!
+
+
+
+## 2 - Implémentation d'une file
 
 Complétez l'implémentation d'une structure de données de type "file" (en
 anglais *queue*) à partir des déclarations suivantes:
