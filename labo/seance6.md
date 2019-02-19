@@ -27,7 +27,7 @@ tp1.c
 
 Les commandes importantes sont : `cd`, `ls`, `for`, `cat`, `date`, `git log -1 --format="%ai" -- $filename`
 
-#### éditer le fichier vérifier.sh
+#### éditer le fichier verifier.sh
 ~~~~
 $ nano verifier.sh
 $ #changer le droit avec ?
