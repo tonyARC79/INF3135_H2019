@@ -45,7 +45,7 @@ $ ./verifier.sh
 
 *Note* Vous aurez aussi compris que le script sera utile pour savoir si tous les fichiers existent dans mon dépôt!
 
-## 2 - Lecture d'une ligne et conversion
+## 2 - Lecture d'une ligne de données : validation, conversion, affichage
 
 Dans cet exercice, vous devez dans un premier temps penser à une stratégie pour lire des lignes (plusieurs caractères)
 et vérifier qu'il s'agit bien de nombre.
