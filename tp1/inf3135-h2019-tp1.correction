@@ -4,7 +4,7 @@
 1    0 make data (verif)     ls -1 ./data/data.txt
 1    0 make test             timeout 20s make test
 1    0 make clean            timeout 10s make clean && make clean
-1    0 make resultat         grep 'resultat :\|resultat:' Makefile | . <( echo return $(wc -l) )
+1    1 make resultat         grep 'resultat :\|resultat:' Makefile | . <( echo return $(wc -l) )
 2    0 README.md             ls README.md > /dev/null 2>&1
 2    0 compilation           gcc -Wall -pedantic -std=c99 -lm -O1 -o tp1 tp1.c
 1    0 code.txt              timeout 30s ./tp1 -c $(cat cp.txt) -i ~/depot/data0.in ; ls code.txt > /dev/null 2>&1
