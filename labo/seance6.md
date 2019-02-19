@@ -45,9 +45,31 @@ $ ./verifier.sh
 
 *Note* Vous aurez aussi compris que le script sera utile pour savoir si tous les fichiers existent dans mon dépôt!
 
+## 2 - Lecture d'une ligne et conversion
+
+Dans cet exercice, vous devez dans un premier temps penser à une stratégie pour lire des lignes (plusieurs caractères)
+et vérifier qu'il s'agit bien de nombre.
+
+Vous devez garder seulement les lignes qui sont valides soit l'ensemble des nombres N = { 0, 1, 2, 3, 4 ... n }
+
+Vous devez ajouter 100 au nombre pour ensuite l'afficher dans la sortie standard.
+
+exemple de lignes :
+~~~~
+120 123456789
+a 12
+be et
+-80 100
+0 0
+12345 18446744073709551615
+~~~~
+
+Q1. Quel est la stratégie
+Q2. Approche pour realiser le travail ?
+Q3. Difficultés rencontrées
 
 
-## 2 - Implémentation d'une file
+## 3 - Implémentation d'une file
 
 Complétez l'implémentation d'une structure de données de type "file" (en
 anglais *queue*) à partir des déclarations suivantes:
