@@ -64,9 +64,9 @@ be et
 12345 18446744073709551615
 ~~~~
 
-Q1. Quel est la stratégie
-Q2. Approche pour realiser le travail ?
-Q3. Difficultés rencontrées
++ Q1. Quel est la stratégie
++ Q2. Approche pour realiser le travail ?
++ Q3. Difficultés rencontrées
 
 
 ## 3 - Implémentation d'une file
